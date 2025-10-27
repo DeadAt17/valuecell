@@ -63,7 +63,7 @@ const LLM_API_KEYS: ApiKey[] = [
     key: 'OPENROUTER_API_KEY',
     label: 'OpenRouter API',
     description: 'For OpenRouter models (gpt-4o, gpt-4o-mini, etc.)',
-    url: 'https://openrouter.ai/',
+    url: 'https://api.siliconflow.cn',
     placeholder: 'your-openrouter-api-key'
   },
   {

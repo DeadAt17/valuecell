@@ -370,7 +370,7 @@ class AdapterManager:
 
         try:
             # Initialize OpenAI client with OpenRouter
-            client = OpenAI(api_key=api_key, base_url="https://openrouter.ai/api/v1")
+            client = OpenAI(api_key=api_key, base_url="https://api.siliconflow.cn/v1")
 
             # Create prompt to generate possible ticker formats
             prompt = f"""Given the user search query: "{query.query}"
